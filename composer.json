@@ -1,0 +1,7 @@
+{
+    "require": {
+        "irazasyed/telegram-bot-sdk": "2.0",
+        "predis/predis": "^1.1",
+        "dejurin/php-google-translate-for-free": "^1.0"
+    }
+}
