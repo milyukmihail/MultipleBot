@@ -15,13 +15,13 @@ class TranslateCommand extends Command {
      *
      * @var type string
      */
-    protected $name = 'translate';
+    private $name = 'translate';
 
     /**
      *
      * @var type string
      */
-    protected $description = 'Перевод';
+    private $description = 'Перевод';
     
     /**
      * 
