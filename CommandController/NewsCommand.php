@@ -14,9 +14,9 @@ class NewsCommand extends Command{
      *
      * @var type 
      */
-    protected $name = 'news';
+    private $name = 'news';
 
-    protected $description = 'Новости по ключевому слову';
+    private $description = 'Новости по ключевому слову';
     
     public function handle($arguments)
     {  
