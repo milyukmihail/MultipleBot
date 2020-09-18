@@ -7,7 +7,7 @@ class Weather {
      *
      * @var type object Guzzle
      */
-    protected $object;
+    private $object;
     
     public function __construct($city) {
         $client = new \GuzzleHttp\Client();
