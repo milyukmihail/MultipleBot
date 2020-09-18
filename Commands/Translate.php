@@ -8,19 +8,19 @@ class Translate {
      * Source language
      * @var type string
      */
-    protected $source = 'ru';
+    private $source = 'ru';
     
     /**
      * Target language
      * @var type string
      */
-    protected $target = 'pl';
+    private $target = 'pl';
     
     /**
      * Number of attempts 
      * @var type int
      */
-    protected $attempts = 5;
+    private $attempts = 5;
     
     /**
      *
