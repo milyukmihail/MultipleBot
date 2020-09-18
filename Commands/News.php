@@ -8,13 +8,13 @@ class News {
      * Number of news sent
      * @var type int
      */
-    protected $count_news = 3;
+    private $count_news = 3;
     
     /**
      *
      * @var type html page
      */
-    protected $html;
+    private $html;
     
     /**
      * 
