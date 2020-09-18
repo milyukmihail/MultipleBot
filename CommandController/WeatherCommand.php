@@ -13,13 +13,13 @@ class WeatherCommand extends Command {
      *
      * @var type string
      */
-    protected $name = 'weather';
+    private $name = 'weather';
 
     /**
      *
      * @var type string
      */
-    protected $description = 'Узнать погоду';
+    private $description = 'Узнать погоду';
 
     /**
      * 
