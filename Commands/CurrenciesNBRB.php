@@ -8,7 +8,7 @@ class CurrenciesNBRB extends Currencies{
      *
      * @var type object
      */
-    protected $object;
+    private $object;
     
     public function __construct() {
         $client = new \GuzzleHttp\Client();
